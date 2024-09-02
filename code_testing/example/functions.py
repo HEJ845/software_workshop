@@ -7,7 +7,7 @@ def frequency_calculation(lamda):
     """
     pi = nmp.pi
    
-    # calculate the frequency
+    # calculate the frequency using the function defined above
     frequency = 1/(pi) * nmp.sqrt(lamda)
 
     return frequency
